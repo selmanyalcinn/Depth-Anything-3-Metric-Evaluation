@@ -34,3 +34,11 @@ src/debug_main.py
 src/outputs
 temp*.png
 /outputs
+
+# Local evaluation datasets and generated point-cloud caches
+/KITTI/
+/nyu_depth_v2_labeled.mat
+/kitti_da3_pc_cache/
+/nyu_da3_pc_cache/
+/kitti_da3_pc_cache_test20/
+*_test20.csv
