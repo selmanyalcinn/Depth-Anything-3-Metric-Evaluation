@@ -15,7 +15,7 @@ In addition to numerical depth metrics, the project reconstructs corresponding g
 
 A hosted Streamlit demo can be linked here after deployment:
 
-**[Open the interactive demo](STREAMLIT_DEMO_URL)**
+**[Open the interactive demo]([STREAMLIT_DEMO_URL](https://depth-anything-3-metric-evaluation-27zb7vwudvfye73b4lpoif.streamlit.app))**
 
 The hosted version can use a representative subset of cached NYUv2 and KITTI frames for fast interactive visualization, while the tables below report the full benchmark results.
 
