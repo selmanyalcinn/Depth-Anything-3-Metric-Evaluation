@@ -1,6 +1,5 @@
 from pathlib import Path
 import re
-
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -33,6 +32,15 @@ DATASETS = {
         "mae_unit": "m",
         "title": "KITTI",
         "description": "Outdoor driving / LiDAR depth evaluation",
+    },
+    "Webots · Simulation": {
+        "cache_dir": "webots_da3_pc_cache",
+        "metrics_csv": "webots_da3_metric_per_image.csv",
+        "primary_range": "0-10m",
+        "range_label": "0–10 m",
+        "mae_unit": "cm",
+        "title": "Webots",
+        "description": "Simulated RGB-D evaluation",
     },
 }
 
